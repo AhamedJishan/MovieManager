@@ -18,6 +18,7 @@ public class Movie {
 
     private String tagline;
 
+    @Lob
     private String overview;
 
     private double revenue;
