@@ -26,4 +26,8 @@ public class Review {
 
     @Lob
     private String content;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "movie_id", nullable = false)
+    private Movie movie;
 }

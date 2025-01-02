@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Set;
+
 @Entity
 @Getter
 @Setter
@@ -26,4 +28,7 @@ public class Movie {
     @Enumerated(EnumType.STRING)
     @Column(name = "status", length = 20)
     private MovieStatus status;
+
+    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Review> reviews;
 }
