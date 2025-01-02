@@ -1,6 +1,6 @@
 package com.capstone.moviemanager.controller;
 
-import com.capstone.moviemanager.model.Genre;
+import com.capstone.moviemanager.dto.GenreDto;
 import com.capstone.moviemanager.service.GenreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -14,23 +14,23 @@ public class GenreController {
     private GenreService genreService;
 
     @GetMapping("/genres")
-    public List<Genre> getAllGenres() {
+    public List<GenreDto> getAllGenres() {
         return genreService.getAllGenres();
     }
 
     @GetMapping("/genre/{id}")
-    public Genre getGenreById(@PathVariable int id) {
+    public GenreDto getGenreById(@PathVariable int id) {
         return genreService.getGenreById(id);
     }
 
     @PostMapping("/genre")
-    public Genre creatGenre(@RequestBody Genre genre) {
-        return genreService.creatGenre(genre);
+    public GenreDto creatGenre(@RequestBody GenreDto genreDto) {
+        return genreService.creatGenre(genreDto);
     }
 
     @PutMapping("/genre")
-    public Genre updateGenre(@RequestBody Genre genre) {
-        return genreService.updateGenre(genre);
+    public GenreDto updateGenre(@RequestBody GenreDto genreDto) {
+        return genreService.updateGenre(genreDto);
     }
 
     @DeleteMapping("/genre/{id}")

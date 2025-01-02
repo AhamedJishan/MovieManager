@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -31,4 +32,10 @@ public class Movie {
 
     @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Review> reviews;
+
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinTable (name = "MOVIE_GENRE",
+                joinColumns        = @JoinColumn(name = "movie_id"),
+                inverseJoinColumns = @JoinColumn(name = "genre_id"))
+    private Set<Genre> genres;
 }

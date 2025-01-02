@@ -4,7 +4,7 @@ import com.capstone.moviemanager.model.MovieStatus;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -16,5 +16,5 @@ public class MovieDto {
     private String overview;
     private double revenue;
     private MovieStatus status;
-    private List<ReviewDto> reviewDtos;
+    private Set<Integer> genre_ids;
 }

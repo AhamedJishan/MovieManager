@@ -1,13 +1,17 @@
 package com.capstone.moviemanager.service;
 
 import com.capstone.moviemanager.dto.MovieDto;
+import com.capstone.moviemanager.model.Genre;
 import com.capstone.moviemanager.model.Movie;
 import com.capstone.moviemanager.model.Review;
+import com.capstone.moviemanager.repository.GenreRepository;
 import com.capstone.moviemanager.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service
@@ -15,9 +19,11 @@ public class MovieService {
 
     @Autowired
     private MovieRepository movieRepository;
-
     @Autowired
     private ReviewService reviewService;
+    @Autowired
+    private GenreRepository genreRepository;
+
 
     public List<MovieDto> getAllMovies() {
         return toDto(movieRepository.findAll());
@@ -61,10 +67,8 @@ public class MovieService {
         movie.setRevenue(movieDto.getRevenue());
         movie.setStatus(movieDto.getStatus());
 
-        List<Review> reviews = reviewService.toEntity(movieDto.getReviewDtos());
-        reviews.forEach(review -> review.setMovie(movie));
-
-        movie.setReviews(reviews);
+        Set<Genre> genres = new HashSet<>(genreRepository.findAllById(movieDto.getGenre_ids()));
+        movie.setGenres(genres);
 
         return movie;
     }
@@ -85,7 +89,8 @@ public class MovieService {
         movieDto.setRevenue(movie.getRevenue());
         movieDto.setStatus(movie.getStatus());
 
-        movieDto.setReviewDtos(reviewService.toDto(movie.getReviews()));
+        Set<Integer> genres = movie.getGenres().stream().map(genre -> genre.getId()).collect(Collectors.toSet());
+        movieDto.setGenre_ids(genres);
 
         return movieDto;
     }
