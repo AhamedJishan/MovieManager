@@ -16,5 +16,6 @@ public class MovieDto {
     private String overview;
     private double revenue;
     private MovieStatus status;
-    private Set<Integer> genre_ids;
+    private Set<Integer> genreIds;
+    private Set<Integer> actorIds;
 }

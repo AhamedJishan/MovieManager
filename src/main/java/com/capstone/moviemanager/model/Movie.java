@@ -30,6 +30,12 @@ public class Movie {
     @Column(name = "status", length = 20)
     private MovieStatus status;
 
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable (name = "MOVIE_ACTOR",
+                joinColumns = @JoinColumn(name = "movie_id"),
+                inverseJoinColumns = @JoinColumn(name = "actor_id"))
+    private Set<Actor> actors;
+
     @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Review> reviews;
 
