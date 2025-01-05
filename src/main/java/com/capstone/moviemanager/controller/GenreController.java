@@ -24,8 +24,13 @@ public class GenreController {
     }
 
     @PostMapping("/genre")
-    public GenreDto creatGenre(@RequestBody GenreDto genreDto) {
-        return genreService.creatGenre(genreDto);
+    public GenreDto createGenre(@RequestBody GenreDto genreDto) {
+        return genreService.createGenre(genreDto);
+    }
+
+    @PostMapping("/genres")
+    public List<GenreDto> creatGenres(@RequestBody List<GenreDto> genreDtos) {
+        return genreService.createGenres(genreDtos);
     }
 
     @PutMapping("/genre")

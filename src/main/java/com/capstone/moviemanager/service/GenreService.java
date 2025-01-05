@@ -22,7 +22,13 @@ public class GenreService {
         return toDto(genreRepository.findById(id).orElse(null));
     }
 
-    public GenreDto creatGenre(GenreDto genreDto) {
+    public List<GenreDto> createGenres(List<GenreDto> genreDtos) {
+        return genreDtos.stream()
+                .map(genreDto -> createGenre(genreDto))
+                .toList();
+    }
+
+    public GenreDto createGenre(GenreDto genreDto) {
         Genre genre = toEntity(genreDto);
         genreRepository.save(genre);
         return toDto(genreRepository.findById(genre.getId()).orElse(null));
@@ -38,7 +44,10 @@ public class GenreService {
         genreRepository.deleteById(id);
     }
 
-    // ===================================================================
+
+    // ================================================================================
+    // NOTE: ========================= UTILITY FUNCTIONS ==============================
+    // ================================================================================
 
     public List<Genre> toEntity(List<GenreDto> genreDtos) {
         return genreDtos.stream()

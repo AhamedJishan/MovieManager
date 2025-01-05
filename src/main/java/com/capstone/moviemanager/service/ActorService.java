@@ -23,6 +23,12 @@ public class ActorService {
         return toDto(actor);
     }
 
+    public List<ActorDto> createActos(List<ActorDto> actorDtos) {
+        return actorDtos.stream()
+                .map(actorDto -> createActor(actorDto))
+                .toList();
+    }
+
     public ActorDto createActor(ActorDto actorDto) {
         Actor actor = toEntity(actorDto);
         actorRepository.save(actor);
@@ -39,7 +45,10 @@ public class ActorService {
         actorRepository.deleteById(id);
     }
 
-    // ==================================================
+
+    // ================================================================================
+    // NOTE: ========================= UTILITY FUNCTIONS ==============================
+    // ================================================================================
 
     public List<Actor> toEntity(List<ActorDto> actorDtos) {
         return actorDtos.stream()

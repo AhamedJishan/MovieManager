@@ -13,39 +13,38 @@ public class MovieController {
     @Autowired
     private MovieService movieService;
 
-    // HOME
     @GetMapping(value = {"/home", "/"})
     public String Home()
     {
         return "Welcome to Jishan's Movie Management system!";
     }
 
-    // GET ALL
     @GetMapping("/movies")
     public List<MovieDto> getAllMovies()
     {
         return movieService.getAllMovies();
     }
 
-    // GET ONE BY ID
     @GetMapping("/movie/{id}")
     public MovieDto getMovieById(@PathVariable int id) {
         return movieService.getMovieById(id);
     }
 
-    // CREATE
     @PostMapping("/movie")
     public MovieDto createMovie(@RequestBody MovieDto movieDto) {
         return movieService.createMovie(movieDto);
     }
 
-    // UPDATE
+    @PostMapping("/movies")
+    public List<MovieDto> createMovies(@RequestBody  List<MovieDto> movieDtos) {
+        return movieService.createMovies(movieDtos);
+    }
+
     @PutMapping("/movie")
     public MovieDto updateMovie(@RequestBody MovieDto movieDto) {
         return movieService.updateMovie(movieDto);
     }
 
-    // DELETE
     @DeleteMapping("/movie/{id}")
     public String deleteMovie(@PathVariable int id) {
         movieService.deleteMovie(id);

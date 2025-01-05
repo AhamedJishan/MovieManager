@@ -29,6 +29,11 @@ public class ReviewController {
         return reviewService.createReview(reviewDto);
     }
 
+    @PostMapping("/reviews")
+    public List<ReviewDto> createReviews(@RequestBody List<ReviewDto> reviewDtos) {
+        return reviewService.createReviews(reviewDtos);
+    }
+
     @PutMapping("/review")
     public ReviewDto updateReview(@RequestBody ReviewDto reviewDto) {
         return reviewService.updateReview(reviewDto);

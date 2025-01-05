@@ -28,6 +28,11 @@ public class ActorController {
         return actorService.createActor(actorDto);
     }
 
+    @PostMapping("/actors")
+    public List<ActorDto> createActors(@RequestBody List<ActorDto> actorDtos) {
+        return actorService.createActos(actorDtos);
+    }
+
     @PutMapping("/actor")
     public ActorDto updateActor(@RequestBody ActorDto actorDto) {
         return actorService.updateActor(actorDto);

@@ -25,18 +25,24 @@ public class ReviewService {
         return toDto(reviewRepository.findAll());
     }
 
-    public ReviewDto getReviewById(@PathVariable int id) {
+    public ReviewDto getReviewById(int id) {
         Review review = reviewRepository.findById(id).orElse(null);
         return toDto(review);
     }
 
-    public ReviewDto createReview(@RequestBody ReviewDto reviewDto) {
+    public List<ReviewDto> createReviews(List<ReviewDto> reviewDtos) {
+        return reviewDtos.stream()
+                .map(reviewDto -> createReview(reviewDto))
+                .toList();
+    }
+
+    public ReviewDto createReview(ReviewDto reviewDto) {
         Review review = toEntity(reviewDto);
         reviewRepository.save(review);
         return toDto(reviewRepository.findById(review.getId()).orElse(null));
     }
 
-    public ReviewDto updateReview(@RequestBody ReviewDto reviewDto) {
+    public ReviewDto updateReview(ReviewDto reviewDto) {
         Review review = toEntity(reviewDto);
         reviewRepository.save(review);
         return toDto(reviewRepository.findById(review.getId()).orElse(null));
@@ -46,7 +52,10 @@ public class ReviewService {
         reviewRepository.deleteById(id);
     }
 
-    // ==========================================================================
+
+    // ================================================================================
+    // NOTE: ========================= UTILITY FUNCTIONS ==============================
+    // ================================================================================
 
     public List<Review> toEntity(List<ReviewDto> reviewDtos) {
         return reviewDtos.stream()

@@ -36,6 +36,12 @@ public class MovieService {
         return toDto(movieRepository.findById(id).orElse(null));
     }
 
+    public List<MovieDto> createMovies(List<MovieDto> movieDtos) {
+        return movieDtos.stream()
+                .map(movieDto -> createMovie(movieDto))
+                .toList();
+    }
+
     public MovieDto createMovie(MovieDto movieDto) {
         Movie movie = toEntity(movieDto);
         movieRepository.save(movie);
@@ -52,6 +58,9 @@ public class MovieService {
         movieRepository.deleteById(id);
     }
 
+
+    // ================================================================================
+    // NOTE: ========================= UTILITY FUNCTIONS ==============================
     // ================================================================================
 
     public List<Movie> toEntity(List<MovieDto> movieDtos) {
