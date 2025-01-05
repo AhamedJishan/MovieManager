@@ -1,0 +1,128 @@
+[
+  {
+    "title": "The Dark Knight",
+    "tagline": "Why So Serious?",
+    "overview": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "revenue": 1004558444.00,
+    "status": "AVAILABLE",
+    "genreIds": [0, 1, 6],
+    "actorIds": [0, 2, 7]
+  },
+  {
+    "title": "Inception",
+    "tagline": "Your Mind Is The Scene of The Crime",
+    "overview": "A thief who enters the dreams of others to steal secrets from their subconscious is given the chance to have his criminal record erased if he can successfully perform an inception.",
+    "revenue": 829895144.00,
+    "status": "AVAILABLE",
+    "genreIds": [2, 18, 19],
+    "actorIds": [0, 10, 5]
+  },
+  {
+    "title": "Titanic",
+    "tagline": "Nothing on Earth Could Come Between Them",
+    "overview": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "revenue": 2187463944.00,
+    "status": "COMING_SOON",
+    "genreIds": [1, 17],
+    "actorIds": [0, 8, 11]
+  },
+  {
+    "title": "Avengers: Endgame",
+    "tagline": "Avenge The Fallen",
+    "overview": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+    "revenue": 2797800564.00,
+    "status": "AVAILABLE",
+    "genreIds": [0, 19, 20],
+    "actorIds": [2, 3, 4]
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "tagline": "Fear Can Hold You Prisoner. Hope Can Set You Free.",
+    "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "revenue": 28341469.00,
+    "status": "NOT_AVAILABLE",
+    "genreIds": [1, 17],
+    "actorIds": [5, 12, 13]
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "tagline": "The Multiverse Unleashed",
+    "overview": "With Spider-Man's identity now revealed, Peter asks for help from Doctor Strange to make people forget he is Spider-Man. However, the spell goes wrong, opening the multiverse and unleashing the villains from other realities.",
+    "revenue": 1850000000.00,
+    "status": "COMING_SOON",
+    "genreIds": [19, 0],
+    "actorIds": [2, 14, 16]
+  },
+  {
+    "title": "3 Idiots",
+    "tagline": "All Is Well",
+    "overview": "Two friends search for their long-lost companion. They revisit their college days and recount their experiences with a fellow student who influenced their lives.",
+    "revenue": 460000000.00,
+    "status": "AVAILABLE",
+    "genreIds": [1, 5, 13],
+    "actorIds": [20, 16, 19]
+  },
+  {
+    "title": "Avatar",
+    "tagline": "Enter The World",
+    "overview": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+    "revenue": 2787965087.00,
+    "status": "NOT_AVAILABLE",
+    "genreIds": [2, 18],
+    "actorIds": [10, 19]
+  },
+  {
+    "title": "The Godfather",
+    "tagline": "An offer you can't refuse",
+    "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "revenue": 250000000.00,
+    "status": "AVAILABLE",
+    "genreIds": [0, 1],
+    "actorIds": [17, 18, 15]
+  },
+  {
+    "title": "Forrest Gump",
+    "tagline": "Life is like a box of chocolates",
+    "overview": "The presidencies of Kennedy and Johnson, the Vietnam War, the Civil Rights Movement, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+    "revenue": 678226145.00,
+    "status": "COMING_SOON",
+    "genreIds": [17, 1],
+    "actorIds": [12, 10]
+  },
+  {
+    "title": "The Lion King",
+    "tagline": "The King has Returned",
+    "overview": "A young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.",
+    "revenue": 1648911200.00,
+    "status": "AVAILABLE",
+    "genreIds": [4, 1],
+    "actorIds": [0, 10, 15]
+  },
+  {
+    "title": "The Matrix",
+    "tagline": "Welcome to the Real World",
+    "overview": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "revenue": 463517383.00,
+    "status": "NOT_AVAILABLE",
+    "genreIds": [0, 18],
+    "actorIds": [0, 7, 2]
+  },
+  {
+    "title": "Sholay",
+    "tagline": "A Burning Desire for Revenge",
+    "overview": "The story of two criminals hired by a retired police officer to capture the notorious bandit leader Gabbar Singh.",
+    "revenue": 45000000.00,
+    "status": "AVAILABLE",
+    "genreIds": [0, 6],
+    "actorIds": [17, 19]
+  },
+  {
+    "title": "Jurassic Park",
+    "tagline": "An Adventure 65 Million Years in the Making",
+    "overview": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run wild.",
+    "revenue": 1070000000.00,
+    "status": "COMING_SOON",
+    "genreIds": [2, 19],
+    "actorIds": [0, 14, 6]
+  }
+]

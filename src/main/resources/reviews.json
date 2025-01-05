@@ -1,0 +1,306 @@
+[
+  {
+    "author": "John Doe",
+    "createdAt": "2025-01-05T10:10:58.993Z",
+    "updatedAt": "2025-01-05T10:10:58.993Z",
+    "title": "Amazing action and storyline",
+    "content": "The Dark Knight is undoubtedly one of the best superhero films ever made. The plot, the acting, and the direction were top-notch, with Heath Ledger’s portrayal of the Joker being absolutely memorable. A must-watch!",
+    "movieId": 1
+  },
+  {
+    "author": "Sarah Miller",
+    "createdAt": "2025-01-05T11:45:12.123Z",
+    "updatedAt": "2025-01-05T11:45:12.123Z",
+    "title": "An unforgettable performance",
+    "content": "Heath Ledger's Joker is iconic. The Dark Knight's thrilling plot and incredible performances make it one of the best superhero films ever.",
+    "movieId": 1
+  },
+  {
+    "author": "Richard Roe",
+    "createdAt": "2025-01-05T12:25:48.120Z",
+    "updatedAt": "2025-01-05T12:25:48.120Z",
+    "title": "Masterpiece in every sense",
+    "content": "Inception is mind-bending and visually stunning. The concept of dreams within dreams is executed brilliantly, and the acting is superb. It keeps you engaged till the very end.",
+    "movieId": 2
+  },
+  {
+    "author": "Emily Clark",
+    "createdAt": "2025-01-05T13:10:02.456Z",
+    "updatedAt": "2025-01-05T13:10:02.456Z",
+    "title": "An unforgettable journey",
+    "content": "Inception takes you on a ride that is intellectually challenging but incredibly satisfying. A truly remarkable achievement in cinema.",
+    "movieId": 2
+  },
+  {
+    "author": "John Smith",
+    "createdAt": "2025-01-05T14:15:50.432Z",
+    "updatedAt": "2025-01-05T14:15:50.432Z",
+    "title": "A dream within a dream",
+    "content": "Inception is a cinematic experience that plays with your mind and challenges the perception of reality. Christopher Nolan has truly outdone himself.",
+    "movieId": 2
+  },
+  {
+    "author": "Michael Johnson",
+    "createdAt": "2025-01-05T14:00:00.789Z",
+    "updatedAt": "2025-01-05T14:00:00.789Z",
+    "title": "A cinematic classic",
+    "content": "Titanic's love story is heart-wrenching, and the visuals are spectacular. Even though it’s a bit long, it is an unforgettable experience. A truly epic love story!",
+    "movieId": 3
+  },
+  {
+    "author": "Sophia Lee",
+    "createdAt": "2025-01-05T15:30:00.233Z",
+    "updatedAt": "2025-01-05T15:30:00.233Z",
+    "title": "Timeless romance",
+    "content": "Titanic captures the essence of love and loss. The film's emotional depth and sweeping visuals make it a true cinematic gem.",
+    "movieId": 3
+  },
+  {
+    "author": "Alice Walker",
+    "createdAt": "2025-01-05T16:05:12.893Z",
+    "updatedAt": "2025-01-05T16:05:12.893Z",
+    "title": "Emotional and thrilling",
+    "content": "Avengers: Endgame is a fitting conclusion to the Marvel Cinematic Universe’s saga. The action sequences were phenomenal, and the emotional moments left me in tears. Truly an unforgettable film.",
+    "movieId": 4
+  },
+  {
+    "author": "Lucas Green",
+    "createdAt": "2025-01-05T17:00:45.216Z",
+    "updatedAt": "2025-01-05T17:00:45.216Z",
+    "title": "An epic conclusion",
+    "content": "Endgame wraps up the Marvel saga beautifully. The emotional payoff for long-time fans is worth every second. The battle scenes are spectacular.",
+    "movieId": 4
+  },
+  {
+    "author": "David Smith",
+    "createdAt": "2025-01-05T17:15:28.541Z",
+    "updatedAt": "2025-01-05T17:15:28.541Z",
+    "title": "A legendary classic",
+    "content": "The Shawshank Redemption is a story of hope and friendship that resonates deeply. Tim Robbins and Morgan Freeman deliver remarkable performances.",
+    "movieId": 5
+  },
+  {
+    "author": "Julia Davis",
+    "createdAt": "2025-01-05T19:10:14.221Z",
+    "updatedAt": "2025-01-05T19:10:14.221Z",
+    "title": "Not my favorite",
+    "content": "Though Shawshank Redemption is widely praised, I found it a bit too slow for my liking. Still, the performances were strong and the story touching.",
+    "movieId": 5
+  },
+  {
+    "author": "Oliver Jackson",
+    "createdAt": "2025-01-05T20:30:05.123Z",
+    "updatedAt": "2025-01-05T20:30:05.123Z",
+    "title": "A moving tale of redemption",
+    "content": "The Shawshank Redemption is an unforgettable journey of perseverance and hope. The way it depicts the human spirit is beautifully crafted.",
+    "movieId": 5
+  },
+  {
+    "author": "Chris Allen",
+    "createdAt": "2025-01-05T20:20:55.017Z",
+    "updatedAt": "2025-01-05T20:20:55.017Z",
+    "title": "A thrilling ride",
+    "content": "Spider-Man: No Way Home is an absolute treat for fans of the superhero genre. The multiverse concept is brilliantly executed, and the performances from all the actors are top-notch.",
+    "movieId": 6
+  },
+  {
+    "author": "Victoria Scott",
+    "createdAt": "2025-01-05T21:15:40.433Z",
+    "updatedAt": "2025-01-05T21:15:40.433Z",
+    "title": "A great crossover",
+    "content": "No Way Home is everything fans of Spider-Man could have hoped for. The mix of multiverse characters is exciting and the action keeps you on the edge of your seat.",
+    "movieId": 6
+  },
+  {
+    "author": "Ethan White",
+    "createdAt": "2025-01-05T22:00:33.120Z",
+    "updatedAt": "2025-01-05T22:00:33.120Z",
+    "title": "Cinematic perfection",
+    "content": "Avatar is visually stunning, and the world of Pandora feels alive. The story may be simple, but it’s told in such a captivating way that it doesn’t matter.",
+    "movieId": 7
+  },
+  {
+    "author": "Hannah White",
+    "createdAt": "2025-01-05T23:05:45.998Z",
+    "updatedAt": "2025-01-05T23:05:45.998Z",
+    "title": "A groundbreaking film",
+    "content": "Avatar set a new standard for visual effects. Its immersive world is something that’s never been seen before, and I couldn’t get enough of it.",
+    "movieId": 7
+  },
+  {
+    "author": "Megan Anderson",
+    "createdAt": "2025-01-05T23:50:15.932Z",
+    "updatedAt": "2025-01-05T23:50:15.932Z",
+    "title": "Beyond the visuals",
+    "content": "Avatar's story is simple but powerful. The film’s visuals are groundbreaking, but it’s the connection to nature and humanity that resonates.",
+    "movieId": 7
+  },
+  {
+    "author": "Samantha Harris",
+    "createdAt": "2025-01-05T12:30:42.230Z",
+    "updatedAt": "2025-01-05T12:30:42.230Z",
+    "title": "Timeless masterpiece",
+    "content": "Marlon Brando’s portrayal of Don Vito Corleone is legendary. The Godfather continues to stand as one of the most influential films in history.",
+    "movieId": 8
+  },
+  {
+    "author": "Richard Brown",
+    "createdAt": "2025-01-05T14:20:33.877Z",
+    "updatedAt": "2025-01-05T14:20:33.877Z",
+    "title": "An unforgettable saga",
+    "content": "The Godfather is a true cinematic masterpiece. Marlon Brando and Al Pacino’s performances are mesmerizing. The story is timeless and continues to inspire.",
+    "movieId": 8
+  },
+  {
+    "author": "Olivia White",
+    "createdAt": "2025-01-05T15:05:10.124Z",
+    "updatedAt": "2025-01-05T15:05:10.124Z",
+    "title": "A timeless story",
+    "content": "Forrest Gump is a classic. The movie has everything – laughter, tears, and inspiration. It’s a film that sticks with you long after you’ve seen it.",
+    "movieId": 9
+  },
+  {
+    "author": "Joshua Scott",
+    "createdAt": "2025-01-05T16:40:18.564Z",
+    "updatedAt": "2025-01-05T16:40:18.564Z",
+    "title": "A tale for the ages",
+    "content": "Forrest Gump is a heartfelt journey that takes you through American history, making it both entertaining and thought-provoking. A truly memorable film.",
+    "movieId": 9
+  },
+  {
+    "author": "Chris Allen",
+    "createdAt": "2025-01-05T16:10:45.246Z",
+    "updatedAt": "2025-01-05T16:10:45.246Z",
+    "title": "The lion’s return",
+    "content": "The Lion King is an iconic movie that has made a huge impact on pop culture. The animation and music still hold up, and the emotional depth is remarkable.",
+    "movieId": 10
+  },
+  {
+    "author": "Megan White",
+    "createdAt": "2025-01-05T17:20:30.567Z",
+    "updatedAt": "2025-01-05T17:20:30.567Z",
+    "title": "A timeless Disney classic",
+    "content": "The Lion King brings a story of friendship, loss, and growth that speaks to everyone. The music and animation are still legendary.",
+    "movieId": 10
+  },
+  {
+    "author": "Charlotte Roberts",
+    "createdAt": "2025-01-05T18:35:10.213Z",
+    "updatedAt": "2025-01-05T18:35:10.213Z",
+    "title": "A true classic",
+    "content": "The Lion King is not just a film but an experience. The animation, music, and life lessons are powerful, making it a timeless Disney classic.",
+    "movieId": 10
+  },
+  {
+    "author": "Liam Harris",
+    "createdAt": "2025-01-05T20:45:33.543Z",
+    "updatedAt": "2025-01-05T20:45:33.543Z",
+    "title": "A gripping thriller",
+    "content": "The Silence of the Lambs is one of the best psychological thrillers ever made. Anthony Hopkins’ portrayal of Hannibal Lecter is truly chilling, and Jodie Foster delivers an outstanding performance.",
+    "movieId": 11
+  },
+  {
+    "author": "Ella Green",
+    "createdAt": "2025-01-05T21:25:12.878Z",
+    "updatedAt": "2025-01-05T21:25:12.878Z",
+    "title": "A chilling classic",
+    "content": "Silence of the Lambs is a masterclass in suspense and tension. The performances are unforgettable, especially from Hopkins, who brings Hannibal Lecter to life in such a haunting way.",
+    "movieId": 11
+  },
+  {
+    "author": "Lucas Walker",
+    "createdAt": "2025-01-05T21:55:20.332Z",
+    "updatedAt": "2025-01-05T21:55:20.332Z",
+    "title": "A disturbing masterpiece",
+    "content": "The Silence of the Lambs is a psychological thriller at its finest. The tension builds throughout, and Hopkins' portrayal of Lecter is just as iconic as it gets.",
+    "movieId": 11
+  },
+  {
+    "author": "Ava Johnson",
+    "createdAt": "2025-01-05T23:10:25.781Z",
+    "updatedAt": "2025-01-05T23:10:25.781Z",
+    "title": "Unforgettable",
+    "content": "Forrest Gump tells an unforgettable story of love, loss, and destiny. Tom Hanks is exceptional in the role, and the film’s emotional impact stays with you long after it's over.",
+    "movieId": 12
+  },
+  {
+    "author": "James Wright",
+    "createdAt": "2025-01-05T23:50:00.501Z",
+    "updatedAt": "2025-01-05T23:50:00.501Z",
+    "title": "The power of simplicity",
+    "content": "Forrest Gump is a heartfelt and simple tale that’s full of life lessons. Tom Hanks’ portrayal of Forrest is nothing short of incredible, and it’s a story that resonates with everyone.",
+    "movieId": 12
+  },
+  {
+    "author": "Emily Harris",
+    "createdAt": "2025-01-06T00:30:45.876Z",
+    "updatedAt": "2025-01-06T00:30:45.876Z",
+    "title": "Heartwarming and emotional",
+    "content": "Forrest Gump is an emotional roller coaster. It’s a beautifully crafted movie with a lot of heart. Tom Hanks gives one of his best performances in this timeless classic.",
+    "movieId": 12
+  },
+  {
+    "author": "David Lee",
+    "createdAt": "2025-01-06T01:10:00.235Z",
+    "updatedAt": "2025-01-06T01:10:00.235Z",
+    "title": "A masterpiece",
+    "content": "The Matrix is a revolutionary film that changed the way we look at action and science fiction. The special effects are groundbreaking, and the story is both thought-provoking and exhilarating.",
+    "movieId": 13
+  },
+  {
+    "author": "Olivia Clark",
+    "createdAt": "2025-01-06T02:00:22.817Z",
+    "updatedAt": "2025-01-06T02:00:22.817Z",
+    "title": "A thought-provoking classic",
+    "content": "The Matrix is an action-packed philosophical journey that questions the nature of reality. It’s one of those films that not only entertains but also challenges your thoughts.",
+    "movieId": 13
+  },
+  {
+    "author": "Ethan Brown",
+    "createdAt": "2025-01-06T02:35:10.216Z",
+    "updatedAt": "2025-01-06T02:35:10.216Z",
+    "title": "Timeless sci-fi",
+    "content": "The Matrix remains a groundbreaking film even years after its release. Its themes about reality and control are still incredibly relevant today, and the action sequences are legendary.",
+    "movieId": 13
+  },
+  {
+    "author": "Jack Robinson",
+    "createdAt": "2025-01-06T03:10:15.612Z",
+    "updatedAt": "2025-01-06T03:10:15.612Z",
+    "title": "A revolutionary film",
+    "content": "The Matrix isn’t just a movie; it’s a cultural touchstone. Its innovative storytelling and mind-bending action sequences left an indelible mark on the sci-fi genre.",
+    "movieId": 13
+  },
+  {
+    "author": "Lily Thompson",
+    "createdAt": "2025-01-06T03:45:30.112Z",
+    "updatedAt": "2025-01-06T03:45:30.112Z",
+    "title": "A defining film of the genre",
+    "content": "The Matrix redefined sci-fi films in ways that hadn’t been done before. The concepts, special effects, and action scenes are still awe-inspiring today.",
+    "movieId": 13
+  },
+  {
+    "author": "Mason Davis",
+    "createdAt": "2025-01-06T04:20:20.998Z",
+    "updatedAt": "2025-01-06T04:20:20.998Z",
+    "title": "A bold vision",
+    "content": "The Dark Knight Rises is a fitting conclusion to the trilogy. It may not be as perfect as its predecessor, but the action is intense, and the themes of redemption are powerful.",
+    "movieId": 14
+  },
+  {
+    "author": "Sophia Martinez",
+    "createdAt": "2025-01-06T04:50:45.764Z",
+    "updatedAt": "2025-01-06T04:50:45.764Z",
+    "title": "A worthy conclusion",
+    "content": "The Dark Knight Rises may not have the same impact as The Dark Knight, but it still delivers an epic and satisfying conclusion to Batman's story. Bane is a great villain.",
+    "movieId": 14
+  },
+  {
+    "author": "Noah Garcia",
+    "createdAt": "2025-01-06T05:30:25.451Z",
+    "updatedAt": "2025-01-06T05:30:25.451Z",
+    "title": "A great end to a trilogy",
+    "content": "The Dark Knight Rises is an emotional and action-packed finale to Nolan's Batman trilogy. Although it's a bit overstuffed, it wraps up the story well and delivers some powerful moments.",
+    "movieId": 14
+  }
+]

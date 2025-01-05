@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Leonardo DiCaprio",
+    "gender": "M",
+    "popularity": 98
+  },
+  {
+    "name": "Dwayne Johnson",
+    "gender": "M",
+    "popularity": 95
+  },
+  {
+    "name": "Scarlett Johansson",
+    "gender": "F",
+    "popularity": 94
+  },
+  {
+    "name": "Robert Downey Jr.",
+    "gender": "M",
+    "popularity": 97
+  },
+  {
+    "name": "Priyanka Chopra",
+    "gender": "F",
+    "popularity": 90
+  },
+  {
+    "name": "Chris Hemsworth",
+    "gender": "M",
+    "popularity": 92
+  },
+  {
+    "name": "Deepika Padukone",
+    "gender": "F",
+    "popularity": 91
+  },
+  {
+    "name": "Tom Hanks",
+    "gender": "M",
+    "popularity": 96
+  },
+  {
+    "name": "Will Smith",
+    "gender": "M",
+    "popularity": 94
+  },
+  {
+    "name": "Amitabh Bachchan",
+    "gender": "M",
+    "popularity": 92
+  },
+  {
+    "name": "Emma Watson",
+    "gender": "F",
+    "popularity": 93
+  },
+  {
+    "name": "Shah Rukh Khan",
+    "gender": "M",
+    "popularity": 95
+  },
+  {
+    "name": "Angelina Jolie",
+    "gender": "F",
+    "popularity": 91
+  },
+  {
+    "name": "Ranbir Kapoor",
+    "gender": "M",
+    "popularity": 88
+  },
+  {
+    "name": "Meryl Streep",
+    "gender": "F",
+    "popularity": 97
+  },
+  {
+    "name": "Brad Pitt",
+    "gender": "M",
+    "popularity": 95
+  },
+  {
+    "name": "Aamir Khan",
+    "gender": "M",
+    "popularity": 90
+  },
+  {
+    "name": "Jessica Chastain",
+    "gender": "F",
+    "popularity": 89
+  },
+  {
+    "name": "Akshay Kumar",
+    "gender": "M",
+    "popularity": 92
+  },
+  {
+    "name": "Kate Winslet",
+    "gender": "F",
+    "popularity": 91
+  },
+  {
+    "name": "Ranveer Singh",
+    "gender": "M",
+    "popularity": 90
+  },
+  {
+    "name": "Tom Cruise",
+    "gender": "M",
+    "popularity": 94
+  },
+  {
+    "name": "Julia Roberts",
+    "gender": "F",
+    "popularity": 92
+  },
+  {
+    "name": "Salman Khan",
+    "gender": "M",
+    "popularity": 93
+  },
+  {
+    "name": "Zoe Saldana",
+    "gender": "F",
+    "popularity": 88
+  },
+  {
+    "name": "Vicky Kaushal",
+    "gender": "M",
+    "popularity": 85
+  },
+  {
+    "name": "Matt Damon",
+    "gender": "M",
+    "popularity": 91
+  },
+  {
+    "name": "Rani Mukerji",
+    "gender": "F",
+    "popularity": 87
+  },
+  {
+    "name": "Johnny Depp",
+    "gender": "M",
+    "popularity": 92
+  },
+  {
+    "name": "Shilpa Shetty",
+    "gender": "F",
+    "popularity": 80
+  },
+  {
+    "name": "Henry Cavill",
+    "gender": "M",
+    "popularity": 93
+  },
+  {
+    "name": "Katrina Kaif",
+    "gender": "F",
+    "popularity": 90
+  },
+  {
+    "name": "Ryan Reynolds",
+    "gender": "M",
+    "popularity": 94
+  },
+  {
+    "name": "Kareena Kapoor",
+    "gender": "F",
+    "popularity": 88
+  },
+  {
+    "name": "Chris Pratt",
+    "gender": "M",
+    "popularity": 92
+  },
+  {
+    "name": "Kajol",
+    "gender": "F",
+    "popularity": 91
+  },
+  {
+    "name": "Ben Affleck",
+    "gender": "M",
+    "popularity": 89
+  },
+  {
+    "name": "Nargis Fakhri",
+    "gender": "F",
+    "popularity": 85
+  },
+  {
+    "name": "Sushant Singh Rajput",
+    "gender": "M",
+    "popularity": 87
+  },
+  {
+    "name": "Matthew McConaughey",
+    "gender": "M",
+    "popularity": 90
+  }
+]
